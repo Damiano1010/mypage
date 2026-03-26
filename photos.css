@@ -1,22 +1,63 @@
-#t{
+#text {
+    display: flex;
+    flex-direction: row;
+}
+
+.ele {
+    width: 50vw;
+    background-color: rgb(217, 192, 158);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
     font-size: 90px;
     font-family: Praise;
+    color:black;
 }
 
-.container{
+
+.container {
     display: flex;
     flex-wrap: wrap;
-   /* justify-content: center; ??? */
-
-
+    /* justify-content: center; ??? */
 }
+
+
+a:link, a:visited {
+    
+}
+
+
+
+
+
 
 img {
     width: 300px;
     margin: 20px;
+}
 
+img:hover {
+    transform: scale(1.1);
+}
+
+
+/* transiton:background-color */
+
+/*@media (orientation: potrait) {
+
+#hahn{
+
+width: 100vw;
 
 }
+
+
+
+cursor:url(./),auto
+
+
+
+*/
 
 @font-face {
     font-family: Praise;
