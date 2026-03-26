@@ -1,8 +1,15 @@
+body {
+    background-color: rgb(69, 125, 174);
+}
+
+
+
 h1 {
     font-family: Praise;
     text-align: center;
     font-size: 100px;
     font-weight: lighter;
+    color: rgb(176, 224, 228);
 }
 
 @font-face {
@@ -10,25 +17,29 @@ h1 {
     src: url(./fonts/Praise-Regular.ttf);
 }
 
-table {
-    font-size: 50px;
-    text-align: center;
-    margin: auto;
-    /* wird mittig platziert */
-    /* border-style: solid;
-    border-color: black;
-    border-width: 5px; */
-    width: 900px;
-    height: 400px;
 
+a {
+    color: rgb(69, 125, 174);
+    text-decoration: none;
 }
 
-td {
-    /*  border-style: solid;
-    border-color: black;
-    border-width: 5px; */
-    width: 50%;
-    font-family: Praise;
-    font-weight: lighter;
+#work {
+    display: flex;
+    flex-direction: row;
+}
 
+.w {
+    width: 50vw;
+    background-color: rgb(176, 224, 228);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+    font-family: Praise;
 }

@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(69, 125, 174);
+}
+
+
 
 #text {
     display: flex;
@@ -6,30 +11,34 @@
 
 .ele {
     width: 50vw;
-    background-color: rgb(217, 192, 158);
+    background-color: rgb(176, 224, 228);
+
     text-align: center;
     margin: 20px;
     padding: 20px;
     font-size: 90px;
     font-family: Praise;
+    color: rgb(69, 125, 174);
+    text-decoration: none;
+
 }
 
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
-   /* justify-content: center; ??? */
+    /* justify-content: center; ??? */
 
 
 }
 
 
-img{
+img {
     width: 300px;
     margin: 20px;
 }
 
-img:hover{
+img:hover {
     transform: scale(1.1);
 }
 
@@ -56,4 +65,3 @@ cursor:url(./),auto
     font-family: Praise;
     src: url(./fonts/Praise-Regular.ttf);
 }
-

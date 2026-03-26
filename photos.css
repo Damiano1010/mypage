@@ -1,3 +1,14 @@
+body {
+    background-color: rgb(69, 125, 174);
+}
+
+
+
+
+
+
+
+
 #text {
     display: flex;
     flex-direction: row;
@@ -5,13 +16,15 @@
 
 .ele {
     width: 50vw;
-    background-color: rgb(217, 192, 158);
+    background-color: rgb(176, 224, 228);
     text-align: center;
     margin: 20px;
     padding: 20px;
     font-size: 90px;
     font-family: Praise;
-    color:black;
+    color: rgb(69, 125, 174);
+    text-decoration: none;
+
 }
 
 
@@ -20,15 +33,6 @@
     flex-wrap: wrap;
     /* justify-content: center; ??? */
 }
-
-
-a:link, a:visited {
-    
-}
-
-
-
-
 
 
 img {
