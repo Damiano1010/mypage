@@ -1,13 +1,14 @@
-
-body{
+body {
     overflow: hidden;
     background-color: rgb(69, 125, 174);
+    cursor: url(../images/gesicht.png), auto;
+
 }
 
-#frame_container{
+#frame_container {
 
 
-    width:100vw;
+    width: 100vw;
     display: flex;
     justify-content: center;
     overflow: hidden;
@@ -15,8 +16,8 @@ body{
 
 }
 
-#frame{
+#frame {
 
-    height:100vh;
+    height: 100vh;
 
 }
